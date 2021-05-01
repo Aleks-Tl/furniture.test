@@ -1899,6 +1899,18 @@ h6 {
     font-size: 14px;
   }
 
+  .catalog__items .catalog-item .label {
+    top: 10px;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .catalog__items .catalog-item .label_red {
+    top: 43px;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
   .catalog .button_catalog {
     margin-top: 10px;
     height: 30px;
