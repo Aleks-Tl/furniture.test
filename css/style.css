@@ -1708,6 +1708,12 @@ h6 {
     font-size: 12px;
   }
 
+  .catalog__tabs {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+
   .catalog__tab {
     width: 60px;
   }
@@ -1726,16 +1732,18 @@ h6 {
   }
 
   .about__wrap {
-    height: 600px;
+    height: 400px;
   }
 
   .about__text {
+    font-size: 20px;
     width: 100%;
     height: 600px;
   }
 
   .questions {
-    padding-top: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
   }
 
   .questions__title {
@@ -1748,7 +1756,7 @@ h6 {
   }
 
   .questions__wrap {
-    height: 359px;
+    height: 475px;
   }
 
   .questions .feed-form {
@@ -1756,8 +1764,16 @@ h6 {
     height: 70%;
   }
 
+  .questions .feed-form input {
+    margin-bottom: 20px;
+  }
+
   .questions .feed-form__title {
     font-size: 22px;
+  }
+
+  .questions .feed-form__info {
+    margin-top: 25px;
   }
 
   .footer {
@@ -1862,6 +1878,18 @@ h6 {
 
   .questions__form .feed-form {
     height: 100%;
+  }
+
+  .questions .feed-form input {
+    margin-bottom: 10px;
+  }
+
+  .questions .feed-form__title {
+    font-size: 22px;
+  }
+
+  .questions .feed-form__info {
+    margin-top: 15px;
   }
 
   .catalog {
